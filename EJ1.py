@@ -9,10 +9,6 @@ class Cliente:
         self.cedula = cedula
         self.telefono = telefono
 
-    def actualizar_telefono(self, nuevo_telefono):
-        self.telefono = nuevo_telefono
-        print(f"Teléfono de {self.nombre} actualizado a: {self.telefono}")
-
     def __str__(self):
         return f"Cliente: {self.nombre} | Cédula: {self.cedula} | Teléfono: {self.telefono}"
 
